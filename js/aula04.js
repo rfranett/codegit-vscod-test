@@ -1,9 +1,17 @@
 /* arquivos js aula 04 array */
 
 let produtos = ['arroz','feijao','farinha']
-var codigo = Array(10, 20, 30)
-var test = Array(10)
+var codigo = Array(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+var test = Array(11)
 test[0] = "Oi"
+test[1] = "Quem Sabe?"
+test[2] = "Deus Está no Controle."
+test[3] = "Tudo Em Seu Tempo."
+test[4] = "Logo Acaba o Temporal."
+test[5] = "HOjé É um DIa de Groria"
+test[6] = "HOjé É um DIa Abençoado"
+test[7] = " É Benção"
+test[8] = "Misericordia"
 test[9] = "Tudo Bem ?"
 test[10] = "opa!"
 let messes = ['1','2','3','4','5','6','7','8','9','10','11','12',]
@@ -22,17 +30,12 @@ messes [11] ='dezenbro'
 
 //adicionar no final o modo push = empurrar
 produtos.push('açucar','Sal')
-codigo.push(40, 50, 60, 70)
+//codigo.push(40, 50, 60, 70)
 //messes.push('mai','jun','ago', '07')
 
 //remover do final pop = estourar
-produtos.pop()
-codigo.pop()
-//messes.pop()
-
-// remover do  final pop = estourar
-produtos.pop()
-codigo.pop()
+//produtos.pop()
+//codigo.pop()
 //messes.pop()
 
 // adicionar no inicio unshift
@@ -44,7 +47,7 @@ produtos.shift()
 //remover de uma posicao esppecifica splice
 //splice = emendar
 //posicao iniciial, quantos remover
-codigo.splice(1, 3)
+//codigo.splice(1, 3)
 
 //copiar array slice = fatiar porção
 //posicao inicial, quantos copiar
